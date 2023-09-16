@@ -1,7 +1,20 @@
-const  = () => {
-    return ( 
-        <h1>Hello from react</h1>
+import Header from "./components/Header"
+import Content from "./components/Content"
+import Footer from "./components/Footer";
+
+
+
+const App=() => {
+   
+   
+    return (
+        <div>
+           <Header/>
+           <Content/>
+           <Footer />
+        
+        </div>
      );
 }
  
-export default ;
+export default App;
